@@ -15,6 +15,7 @@ fastapi를 사용하여 본 과제 코드를 작성하였습니다.
     poetry shell
     poetry install
 
+    mkdir _env
     vi _env/dev.env
     ```
 
