@@ -16,7 +16,22 @@ fastapi를 사용하여 본 과제 코드를 작성하였습니다.
     poetry install
 
     mkdir _env
-    vi _env/dev.env
+    vi _env/dev.
+    
+    ###
+    SERVICE_NAME=viva
+
+    DATABASE_USER=your_mysql_user_name
+    DATABASE_PASSWORD=your_mysql_password
+    DATABASE_HOST=your_mysql_host
+    DATABASE_PORT=your_mysql_port
+    DATABASE_NAME=your_mysql_db_name
+
+    JWT_SECRET_KEY=viva
+    JWT_ALGORITHM=HS256
+
+    MONGOHOST=your_mongodb_host
+    MONGONAME=your_mongodb_name
     ```
 
 3. **데이터베이스 마이그레이션**
