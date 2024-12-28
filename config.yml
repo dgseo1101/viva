@@ -1,0 +1,17 @@
+service:
+  name: ${SERVICE_NAME}
+
+database:
+  user: ${DATABASE_USER}
+  password: ${DATABASE_PASSWORD}
+  host: ${DATABASE_HOST}
+  port: ${DATABASE_PORT}
+  name: ${DATABASE_NAME}
+
+jwt:
+  secret_key: ${JWT_SECRET_KEY}
+  algorithm: ${JWT_ALGORITHM}
+
+mongodb:
+  host: ${MONGOHOST}
+  name: ${MONGONAME}
