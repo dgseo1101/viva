@@ -1,8 +1,12 @@
 # 비바이노베이션 과제
 
+fastapi를 사용하여 본 과제 코드를 작성하였습니다.
+계층형 아키텍처를 사용하였으며, base repository, base service 코드에 crud 를 작업하는 함수들을 구현하고, 
+해당 repository, service 코드를 상속받아 사용하는 형태로 하위 repository, service 코드를 구현하였습니다.
+
 1. **프로젝트 설치**
     ```bash
-    git clone 
+    git clone https://github.com/dgseo1101/viva.git
     cd viva
     ```
 
